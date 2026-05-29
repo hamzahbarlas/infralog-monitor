@@ -1,0 +1,56 @@
+2026-05-28 19:52:34 | WARNING  | web-server-01   | Memory usage at 85% - monitor closely
+2026-05-28 19:52:34 | CRITICAL | web-server-01   | Memory usage at 99% - possible memory leak detected
+2026-05-28 19:52:34 | CRITICAL | db-server-01    | Unauthorized access attempt on restricted endpoint from 140.26.143.46
+2026-05-28 19:52:34 | WARNING  | db-server-01    | Service restarted 8 times in the last hour
+2026-05-28 19:52:34 | WARNING  | db-server-01    | Memory usage at 97% - monitor closely
+2026-05-28 19:52:34 | ERROR    | auth-server     | API gateway timeout after 30s - downstream service unreachable
+2026-05-28 19:52:34 | WARNING  | file-server     | Failed login attempt for user root from 113.181.121.83
+2026-05-28 19:52:34 | WARNING  | db-server-01    | Failed login attempt for user root from 63.100.150.32
+2026-05-28 19:52:34 | CRITICAL | file-server     | Database connection pool exhausted - all requests failing
+2026-05-28 19:52:34 | WARNING  | file-server     | Login attempt outside business hours by user mlopez
+2026-05-28 19:52:34 | CRITICAL | file-server     | Database connection pool exhausted - all requests failing
+2026-05-28 19:52:34 | WARNING  | web-server-01   | Failed login attempt for user admin from 66.225.5.108
+2026-05-28 19:52:34 | WARNING  | web-server-01   | Failed login attempt for user admin from 74.84.166.162
+2026-05-28 19:52:34 | INFO     | web-server-01   | Successful login by user mlopez from 196.230.232.252
+2026-05-28 19:52:34 | CRITICAL | file-server     | CPU usage at 93% - threshold exceeded for 5+ minutes
+2026-05-28 19:52:34 | WARNING  | file-server     | Service restarted 8 times in the last hour
+2026-05-28 19:52:34 | CRITICAL | api-gateway     | Memory usage at 82% - possible memory leak detected
+2026-05-28 19:52:34 | WARNING  | api-gateway     | Failed login attempt for user admin from 17.179.127.210
+2026-05-28 19:52:34 | WARNING  | api-gateway     | Service restarted 2 times in the last hour
+2026-05-28 19:52:34 | CRITICAL | api-gateway     | Database connection pool exhausted - all requests failing
+2026-05-28 19:52:34 | ERROR    | web-server-01   | HTTP 500 error rate at 27% over last 10 minutes
+2026-05-28 19:52:34 | ERROR    | db-server-01    | HTTP 500 error rate at 13% over last 10 minutes
+2026-05-28 19:52:34 | CRITICAL | api-gateway     | Multiple failed logins detected from 98.97.211.64 - possible brute force
+2026-05-28 19:52:34 | WARNING  | file-server     | Service restarted 6 times in the last hour
+2026-05-28 19:52:34 | INFO     | auth-server     | Successful login by user adavis from 92.15.80.241
+2026-05-28 19:52:34 | CRITICAL | file-server     | Unauthorized access attempt on restricted endpoint from 19.54.25.187
+2026-05-28 19:52:34 | WARNING  | api-gateway     | Service restarted 9 times in the last hour
+2026-05-28 19:52:34 | WARNING  | api-gateway     | Login attempt outside business hours by user rthomas
+2026-05-28 19:52:34 | INFO     | auth-server     | Successful login by user adavis from 111.167.213.170
+2026-05-28 19:52:34 | CRITICAL | web-server-01   | Memory usage at 89% - possible memory leak detected
+2026-05-28 19:52:34 | WARNING  | db-server-01    | Service restarted 4 times in the last hour
+2026-05-28 19:52:34 | ERROR    | auth-server     | Service crashed unexpectedly - attempting restart
+2026-05-28 19:52:34 | WARNING  | web-server-01   | CPU usage at 77% - approaching threshold
+2026-05-28 19:52:34 | INFO     | db-server-01    | Successful login by user jsmith from 191.241.121.63
+2026-05-28 19:52:34 | WARNING  | auth-server     | CPU usage at 92% - approaching threshold
+2026-05-28 19:52:34 | WARNING  | db-server-01    | Login attempt outside business hours by user mlopez
+2026-05-28 19:52:34 | WARNING  | web-server-01   | Failed login attempt for user root from 86.176.74.68
+2026-05-28 19:52:34 | WARNING  | auth-server     | Failed login attempt for user root from 124.134.127.151
+2026-05-28 19:52:34 | CRITICAL | db-server-01    | Multiple failed logins detected from 34.217.115.189 - possible brute force
+2026-05-28 19:52:34 | CRITICAL | file-server     | Multiple failed logins detected from 216.206.97.139 - possible brute force
+2026-05-28 19:52:34 | ERROR    | db-server-01    | API gateway timeout after 30s - downstream service unreachable
+2026-05-28 19:52:34 | WARNING  | auth-server     | CPU usage at 99% - approaching threshold
+2026-05-28 19:52:34 | CRITICAL | web-server-01   | Unauthorized access attempt on restricted endpoint from 109.66.101.247
+2026-05-28 19:52:34 | ERROR    | api-gateway     | API gateway timeout after 30s - downstream service unreachable
+2026-05-28 19:52:34 | INFO     | web-server-01   | Successful login by user mlopez from 175.144.246.9
+2026-05-28 19:52:34 | CRITICAL | file-server     | Disk usage at 96% - write failures imminent
+2026-05-28 19:52:34 | INFO     | file-server     | Service health check passed - all systems normal
+2026-05-28 19:52:34 | WARNING  | api-gateway     | Failed login attempt for user root from 41.135.153.168
+2026-05-28 19:52:34 | INFO     | file-server     | Successful login by user adavis from 218.244.174.182
+2026-05-28 19:52:34 | CRITICAL | api-gateway     | Memory usage at 91% - possible memory leak detected
+2026-05-28 19:52:34 | CRITICAL | api-gateway     | Disk usage at 94% - write failures imminent
+2026-05-28 19:52:34 | WARNING  | api-gateway     | Login attempt outside business hours by user jsmith
+2026-05-28 19:52:34 | CRITICAL | auth-server     | Disk usage at 92% - write failures imminent
+2026-05-28 19:52:34 | CRITICAL | auth-server     | Disk usage at 86% - write failures imminent
+2026-05-28 19:52:34 | CRITICAL | api-gateway     | Unauthorized access attempt on restricted endpoint from 64.88.27.44
+2026-05-28 19:52:34 | INFO     | file-server     | Service health check passed - all systems normal

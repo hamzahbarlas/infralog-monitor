@@ -1,0 +1,70 @@
+2026-05-28 19:50:54 | ERROR    | file-server     | API gateway timeout after 30s - downstream service unreachable
+2026-05-28 19:50:54 | WARNING  | web-server-01   | Failed login attempt for user admin from 188.232.222.92
+2026-05-28 19:50:54 | WARNING  | file-server     | CPU usage at 97% - approaching threshold
+2026-05-28 19:50:54 | WARNING  | db-server-01    | Login attempt outside business hours by user rthomas
+2026-05-28 19:50:54 | CRITICAL | web-server-01   | Disk usage at 92% - write failures imminent
+2026-05-28 19:50:54 | CRITICAL | api-gateway     | Database connection pool exhausted - all requests failing
+2026-05-28 19:50:54 | CRITICAL | api-gateway     | Disk usage at 98% - write failures imminent
+2026-05-28 19:50:54 | CRITICAL | db-server-01    | Unauthorized access attempt on restricted endpoint from 193.137.45.212
+2026-05-28 19:50:54 | CRITICAL | db-server-01    | Unauthorized access attempt on restricted endpoint from 40.3.127.39
+2026-05-28 19:50:54 | INFO     | file-server     | Successful login by user jsmith from 131.86.6.254
+2026-05-28 19:50:54 | ERROR    | file-server     | HTTP 500 error rate at 31% over last 10 minutes
+2026-05-28 19:50:54 | INFO     | web-server-01   | Successful login by user mlopez from 22.20.253.53
+2026-05-28 19:50:54 | WARNING  | api-gateway     | Disk usage at 79% on /var/log partition
+2026-05-28 19:50:54 | CRITICAL | auth-server     | Unauthorized access attempt on restricted endpoint from 78.126.11.65
+2026-05-28 19:50:54 | CRITICAL | web-server-01   | Memory usage at 81% - possible memory leak detected
+2026-05-28 19:50:54 | CRITICAL | api-gateway     | Disk usage at 86% - write failures imminent
+2026-05-28 19:50:54 | CRITICAL | api-gateway     | Disk usage at 78% - write failures imminent
+2026-05-28 19:50:54 | WARNING  | file-server     | Memory usage at 89% - monitor closely
+2026-05-28 19:50:54 | CRITICAL | auth-server     | Database connection pool exhausted - all requests failing
+2026-05-28 19:50:54 | WARNING  | api-gateway     | Login attempt outside business hours by user mlopez
+2026-05-28 19:50:54 | WARNING  | api-gateway     | Memory usage at 80% - monitor closely
+2026-05-28 19:50:54 | CRITICAL | api-gateway     | Disk usage at 81% - write failures imminent
+2026-05-28 19:50:54 | CRITICAL | file-server     | CPU usage at 92% - threshold exceeded for 5+ minutes
+2026-05-28 19:50:54 | WARNING  | web-server-01   | Failed login attempt for user root from 206.236.214.8
+2026-05-28 19:50:54 | INFO     | web-server-01   | Service health check passed - all systems normal
+2026-05-28 19:50:54 | CRITICAL | file-server     | Memory usage at 91% - possible memory leak detected
+2026-05-28 19:50:54 | CRITICAL | file-server     | Memory usage at 87% - possible memory leak detected
+2026-05-28 19:50:54 | INFO     | web-server-01   | Successful login by user unknown_user from 142.254.147.159
+2026-05-28 19:50:54 | CRITICAL | api-gateway     | Disk usage at 78% - write failures imminent
+2026-05-28 19:50:54 | WARNING  | auth-server     | Memory usage at 87% - monitor closely
+2026-05-28 19:50:54 | INFO     | auth-server     | Service health check passed - all systems normal
+2026-05-28 19:50:54 | WARNING  | file-server     | Login attempt outside business hours by user adavis
+2026-05-28 19:50:54 | INFO     | api-gateway     | Successful login by user adavis from 165.173.5.50
+2026-05-28 19:50:54 | WARNING  | db-server-01    | Memory usage at 81% - monitor closely
+2026-05-28 19:50:54 | ERROR    | web-server-01   | Service crashed unexpectedly - attempting restart
+2026-05-28 19:50:54 | WARNING  | web-server-01   | Login attempt outside business hours by user jsmith
+2026-05-28 19:50:54 | CRITICAL | auth-server     | Disk usage at 92% - write failures imminent
+2026-05-28 19:50:54 | INFO     | file-server     | Successful login by user adavis from 214.146.42.91
+2026-05-28 19:50:54 | INFO     | web-server-01   | Successful login by user jsmith from 94.36.189.191
+2026-05-28 19:50:54 | CRITICAL | db-server-01    | CPU usage at 91% - threshold exceeded for 5+ minutes
+2026-05-28 19:50:54 | CRITICAL | file-server     | Memory usage at 75% - possible memory leak detected
+2026-05-28 19:50:54 | INFO     | web-server-01   | Service health check passed - all systems normal
+2026-05-28 19:50:54 | WARNING  | file-server     | Service restarted 2 times in the last hour
+2026-05-28 19:50:54 | CRITICAL | web-server-01   | Unauthorized access attempt on restricted endpoint from 92.225.77.31
+2026-05-28 19:50:54 | WARNING  | api-gateway     | Login attempt outside business hours by user jsmith
+2026-05-28 19:50:54 | CRITICAL | web-server-01   | Memory usage at 92% - possible memory leak detected
+2026-05-28 19:50:54 | INFO     | db-server-01    | Service health check passed - all systems normal
+2026-05-28 19:50:54 | WARNING  | web-server-01   | Service restarted 6 times in the last hour
+2026-05-28 19:50:54 | INFO     | db-server-01    | Successful login by user jsmith from 124.100.139.78
+2026-05-28 19:50:54 | ERROR    | api-gateway     | Service crashed unexpectedly - attempting restart
+2026-05-28 19:50:54 | CRITICAL | web-server-01   | Multiple failed logins detected from 175.243.27.174 - possible brute force
+2026-05-28 19:50:54 | ERROR    | api-gateway     | HTTP 500 error rate at 57% over last 10 minutes
+2026-05-28 19:50:54 | WARNING  | auth-server     | Failed login attempt for user root from 55.171.222.130
+2026-05-28 19:50:54 | ERROR    | auth-server     | HTTP 500 error rate at 56% over last 10 minutes
+2026-05-28 19:50:54 | CRITICAL | db-server-01    | Disk usage at 75% - write failures imminent
+2026-05-28 19:50:54 | WARNING  | file-server     | Disk usage at 89% on /var/log partition
+2026-05-28 19:50:54 | ERROR    | db-server-01    | API gateway timeout after 30s - downstream service unreachable
+2026-05-28 19:50:54 | CRITICAL | api-gateway     | Disk usage at 79% - write failures imminent
+2026-05-28 19:50:54 | WARNING  | api-gateway     | CPU usage at 90% - approaching threshold
+2026-05-28 19:50:54 | CRITICAL | db-server-01    | Database connection pool exhausted - all requests failing
+2026-05-28 19:50:54 | CRITICAL | api-gateway     | Disk usage at 75% - write failures imminent
+2026-05-28 19:50:54 | CRITICAL | api-gateway     | Memory usage at 98% - possible memory leak detected
+2026-05-28 19:50:54 | INFO     | file-server     | Successful login by user unknown_user from 118.8.53.185
+2026-05-28 19:50:54 | WARNING  | api-gateway     | Login attempt outside business hours by user mlopez
+2026-05-28 19:50:54 | WARNING  | db-server-01    | Login attempt outside business hours by user jsmith
+2026-05-28 19:50:54 | ERROR    | api-gateway     | API gateway timeout after 30s - downstream service unreachable
+2026-05-28 19:50:54 | WARNING  | auth-server     | CPU usage at 99% - approaching threshold
+2026-05-28 19:50:54 | CRITICAL | file-server     | CPU usage at 97% - threshold exceeded for 5+ minutes
+2026-05-28 19:50:54 | WARNING  | web-server-01   | Failed login attempt for user root from 92.115.118.196
+2026-05-28 19:50:54 | WARNING  | db-server-01    | CPU usage at 88% - approaching threshold

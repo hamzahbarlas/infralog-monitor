@@ -1,0 +1,87 @@
+============================================================
+       INFRALOG MONITOR - INCIDENT REPORT
+============================================================
+  Generated : 2026-05-28 20:18:05
+  Source    : server_20260528_195244.log
+  Total     : 62 events parsed
+============================================================
+
+[EVENT SUMMARY BY SEVERITY]
+----------------------------------------
+  CRITICAL     18  ||||||||||||||||||
+  ERROR        12  ||||||||||||
+  WARNING      26  ||||||||||||||||||||||||||
+  INFO          6  ||||||
+
+[TOP TROUBLED SERVERS]
+----------------------------------------
+  1. db-server-01         16 events
+  2. auth-server          15 events
+  3. file-server          14 events
+  4. web-server-01        13 events
+  5. api-gateway          4 events
+
+[AUTH & ACCESS INCIDENTS]
+----------------------------------------
+  !! Brute Force Attempts Detected: 6
+     [2026-05-28 19:52:44] file-server
+     Multiple failed logins detected from 178.35.25.63 - possible brute force
+     [2026-05-28 19:52:44] db-server-01
+     Multiple failed logins detected from 156.178.222.39 - possible brute force
+     [2026-05-28 19:52:44] db-server-01
+     Multiple failed logins detected from 105.228.73.226 - possible brute force
+     [2026-05-28 19:52:44] auth-server
+     Multiple failed logins detected from 76.213.186.191 - possible brute force
+     [2026-05-28 19:52:44] auth-server
+     Multiple failed logins detected from 65.119.56.227 - possible brute force
+
+  !! Unauthorized Access Attempts: 1
+     [2026-05-28 19:52:44] auth-server
+     Unauthorized access attempt on restricted endpoint from 100.67.209.123
+
+  !! Off Hours Login Attempts: 4
+     [2026-05-28 19:52:44] db-server-01
+     Login attempt outside business hours by user adavis
+     [2026-05-28 19:52:44] auth-server
+     Login attempt outside business hours by user adavis
+     [2026-05-28 19:52:44] file-server
+     Login attempt outside business hours by user mlopez
+     [2026-05-28 19:52:44] db-server-01
+     Login attempt outside business hours by user mlopez
+
+[RESOURCE HEALTH INCIDENTS]
+----------------------------------------
+  !! Critical Resource Events: 8
+     [2026-05-28 19:52:44] auth-server
+     Disk usage at 96% - write failures imminent
+     [2026-05-28 19:52:44] auth-server
+     Disk usage at 90% - write failures imminent
+     [2026-05-28 19:52:44] auth-server
+     Disk usage at 88% - write failures imminent
+     [2026-05-28 19:52:44] api-gateway
+     CPU usage at 77% - threshold exceeded for 5+ minutes
+     [2026-05-28 19:52:44] web-server-01
+     CPU usage at 87% - threshold exceeded for 5+ minutes
+
+[SERVICE STABILITY INCIDENTS]
+----------------------------------------
+  !! Service Crashes/Restarts: 13
+     [2026-05-28 19:52:44] web-server-01
+     Service restarted 9 times in the last hour
+     [2026-05-28 19:52:44] api-gateway
+     Service crashed unexpectedly - attempting restart
+     [2026-05-28 19:52:44] auth-server
+     Service restarted 7 times in the last hour
+     [2026-05-28 19:52:44] file-server
+     Service crashed unexpectedly - attempting restart
+     [2026-05-28 19:52:44] file-server
+     Service crashed unexpectedly - attempting restart
+
+[RISK SCORE]
+----------------------------------------
+  Score: 66/100  --  MEDIUM RISK
+  Formula: (CRITICAL x 3) + (ERROR x 1), capped at 100
+
+============================================================
+  END OF REPORT - INFRALOG MONITOR
+============================================================
